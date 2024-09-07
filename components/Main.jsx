@@ -124,7 +124,7 @@ function Main() {
                    
                     
                     
-                }} key={box} className={`transition-all duration-100 hover:bg-green-500 p-1 outline outline-1   ${finalans.current.includes(box) ? 'bg-green-700' : ''}  ${box === startbox.current ? 'bg-green-400' : ''} ${box === endbox.current && blink==false ? 'bg-red-800' : ''} ${blink == true && box===endbox.current ? 'bg-green-700 animate-pulse' : ''}`}>
+                }} key={box} className={`transition-all duration-100 hover:bg-green-400 p-1 outline outline-1   ${finalans.current.includes(box) ? 'bg-green-700' : ''}  ${box === startbox.current ? 'bg-green-400' : ''} ${box === endbox.current && blink==false ? 'bg-red-800' : ''} ${blink == true && box===endbox.current ? 'bg-green-700 animate-pulse' : ''}`}>
 
                 </div>
             ))}
